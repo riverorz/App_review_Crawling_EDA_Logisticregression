@@ -39,3 +39,30 @@
 <a href="#"><p align="center"><img src= "https://github.com/riverorz/App_review_Crawling_EDA_Logisticregression/blob/main/image/6.png" height="500" width = "600px" ></p></a>
 
 
+## LotteOn EDA
+
+롯데온 EDA는 간략하게 진행
+
+<a href="#"><p align="center"><img src= "https://github.com/riverorz/App_review_Crawling_EDA_Logisticregression/blob/main/image/7.png" height="500" width = "600px" ></p></a>
+
+롯데온도 극단적으로 평점을 매기는걸 확인
+
+## 롯데온 로지스틱 회귀 분석
+년도 별로 나누면 과소적합이 일어나기 때문에 롯데온은 하나의 데이터로 훈련 진행
+
+<a href="#"><p align="center"><img src= "https://github.com/riverorz/App_review_Crawling_EDA_Logisticregression/blob/main/image/8.png" height="200" width = "600px" ></p></a>
+<a href="#"><p align="center"><img src= "https://github.com/riverorz/App_review_Crawling_EDA_Logisticregression/blob/main/image/9.png" height="100" width = "300px" ></p></a>
+
+로지스틱회귀분석 결과 긍부정 단어는 아래와 같다. 
+
+<a href="#"><p align="center"><img src= "https://github.com/riverorz/App_review_Crawling_EDA_Logisticregression/blob/main/image/10.png" height="500" width = "600px" ></p></a>
+
+## 결과
+긍정 출현 단어는 다르지만 부정 출현 단어에서는 로그인, 업데이트, 삭제, 설치등 비슷한 단어들이 출현
+로그인, 업데이트, 삭제, 설치 등 어플리케이션 입장 혹은 실행 과정에서 소비자들이 불편함을 격고 있는걸 알 수 있었으며 서비스적인 부분 보단 서버 및 어플리케이션 작동에 집중해서 해결 해야한다고 판단
+광고 모델이 어플리케이션 사용에 영향을 미침
+추후 긍부정 결과와 매출 혹은 사용량 감소에 상간관계 연구 
+
+## 한계점
+데이터부족으로 년도별 단어 분석 한계
+명사로만 구성되어 있기 때문에 긍부정 결과 분석시 정확한 원인 파악 한계 
